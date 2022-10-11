@@ -5,7 +5,7 @@ import Quizs from '../Quizs/Quizs';
 const Home = () => {
     const quizs = useLoaderData();
     const allQuizs = quizs.data;
-    console.log(allQuizs);
+    // console.log(allQuizs);
     return (
         <div className='d-lg-flex'>
             {
