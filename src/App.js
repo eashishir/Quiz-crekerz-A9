@@ -5,6 +5,7 @@ import './App.css';
 import Blogs from './Components/Blog/Blogs';
 import Home from './Components/Home/Home';
 import Main from './layouts/Main';
+import PageError from './PageError/PageError';
 import Statistic from './Statistic/Statistic';
 import Topics from './Topoics/Topics';
 
@@ -45,7 +46,7 @@ function App() {
       },
       element: <Topics></Topics>
     },
-    { path: '*', element: <div>Page are not found</div> },
+    { path: '*', element: <PageError></PageError> },
 
   ])
   return (

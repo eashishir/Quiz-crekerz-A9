@@ -27,7 +27,7 @@ https://openapi.programming-hero.com/api/quiz/${id}`
 
 - Light/dark mode toggle
 - Live previews
-- Fullscreen mode
+- Full screen mode
 - Cross platform
 -Responsive all device
 -we use the most outstanding Features the ROUTE
@@ -72,7 +72,7 @@ Start the server
 
 ## Tech Stack
 
-**Client:** React, BootstapCSS, TailwindCSS
+**Client:** React, BootstrapCSS, TailwindCSS
 
 **Server:** Node, Express
 
