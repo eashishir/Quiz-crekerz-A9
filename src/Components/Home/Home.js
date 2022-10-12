@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+
 import { useLoaderData } from 'react-router-dom';
 import Quizs from '../Quizs/Quizs';
 import Card from 'react-bootstrap/Card';
@@ -8,7 +8,7 @@ import img from "../quiz-leuchtreklame_1262-19629.webp"
 const Home = () => {
     const quizs = useLoaderData();
     const allQuizs = quizs.data;
-    // console.log(allQuizs);
+
     return (
 
 
