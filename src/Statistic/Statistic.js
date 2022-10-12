@@ -14,9 +14,9 @@ const Statistic = () => {
         { name: statisticAll[3].name, value: statisticAll[3].total },
     ];
     return (
-        <div className="text-center m-5">
+        <div className="text-center">
 
-            <LineChart width={500} height={400} data={data}
+            <LineChart width={400} height={300} data={data}
             >
                 <Line type="monotone" dataKey="value" stroke="#82ca9d" />
                 <XAxis dataKey="name" />
@@ -29,6 +29,7 @@ const Statistic = () => {
             </div>
             <hr />
         </div>
+
     );
 };
 
