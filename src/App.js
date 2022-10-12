@@ -5,6 +5,7 @@ import './App.css';
 import Blogs from './Components/Blog/Blogs';
 import Home from './Components/Home/Home';
 import Main from './layouts/Main';
+import Statistic from './Statistic/Statistic';
 import Topics from './Topoics/Topics';
 
 
@@ -20,6 +21,12 @@ function App() {
           loader: () => fetch("https://openapi.programming-hero.com/api/quiz"),
           element: <Home></Home>
         },
+        {
+          path: '/statistic',
+          loader: () => fetch("https://openapi.programming-hero.com/api/quiz"),
+          element: <Statistic></Statistic>
+        },
+
 
         {
           path: '/blogs',
