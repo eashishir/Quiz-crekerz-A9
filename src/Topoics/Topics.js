@@ -6,7 +6,7 @@ const Topics = () => {
     const topic = useLoaderData();
 
     const allTopic = topic.data.questions;
-    // console.log(topic);
+
     return (
         <div>
             {

@@ -12,13 +12,6 @@ const Option = ({ option, rightHandler }) => {
 
             </ListGroup>
 
-            {/* <div class="form-check">
-
-                <label className="form-check-label" for="flexRadioDefault1">
-                    <input onClick={() => rightHandaler(option)} className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"></input> {option}
-                </label>
-            </div> */}
-
         </div>
     );
 };
